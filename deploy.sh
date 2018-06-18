@@ -76,6 +76,7 @@ function update() {
 function showenv() {
   echo CLOUDANT_url=$CLOUDANT_url
   echo CLOUDANT_db=$CLOUDANT_db
+  echo SLACK_CLIENT_ID=$SLACK_CLIENT_ID
 }
 
 case "$1" in
